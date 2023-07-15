@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: white;
@@ -17,7 +17,7 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
   background-color: var(--white);
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .list {
@@ -71,10 +71,6 @@
 .header-link-address:focus {
   color: var(--ocean);
 }
-
-/* .header-link-menu .link:hover {
-  color: #404bbf;
-} */
 
 /* Section HERO */
 
@@ -174,7 +170,7 @@
   letter-spacing: 0.02em;
 }
 
-/* 3 PORTFOLIO PAGE */
+/*  PORTFOLIO PAGE */
 
 .button-portfilio {
   color: var(--iris);
@@ -186,11 +182,11 @@
   cursor: pointer;
 }
 
-.button-portfilio:hover, .button-portfilio:focus{
+.button-portfilio:hover,
+.button-portfilio:focus {
   color: var(--ocean);
   background-color: var(--ocean);
 }
-
 
 .btn-text {
   color: var(--iris);
@@ -201,8 +197,24 @@
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
 }
-.btn-text:hover, .btn-text:focus{
+.btn-text:hover,
+.btn-text:focus {
   color: var(--white);
+}
+
+.card-name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.card-description{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 /* FOOTER */
