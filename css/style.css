@@ -1,8 +1,7 @@
-body {
+.body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: white;
-  list-style: none;
 }
 :root {
   --iris: #4d5ae5;
@@ -18,6 +17,7 @@ body {
   --white: #ffffff;
   --dairy: #fcfcfc;
   background-color: var(--white);
+  font-family: 'Roboto';
 }
 
 .list {
@@ -176,30 +176,6 @@ body {
 
 /* 3 PORTFOLIO PAGE */
 
-.color-button-portfilio {
-  color: var(--white, #fff);
-  background-color: #4d5ae5;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.color-btn-text {
-  color: var(--iris);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-}
-
-.color-button-portfilio:hover,
-.color-button-portfilio:focus {
-  color: var(--white);
-}
-
 .button-portfilio {
   color: var(--iris);
   background-color: var(--cloud);
@@ -210,13 +186,23 @@ body {
   cursor: pointer;
 }
 
+.button-portfilio:hover, .button-portfilio:focus{
+  color: var(--ocean);
+  background-color: var(--ocean);
+}
+
+
 .btn-text {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
+  background-color: var(--cloud);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+}
+.btn-text:hover, .btn-text:focus{
+  color: var(--white);
 }
 
 /* FOOTER */
