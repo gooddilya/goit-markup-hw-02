@@ -38,16 +38,22 @@ body {
   text-transform: uppercase;
 }
 
-.header-decoration-logo {
+.header-logo-color {
   color: var(--navy-blue, #2e2f42);
 }
 
-.header-link-menu {
+.header-menu-item {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--navy-blue);
+}
+
+.header-link-menu:hover,
+.header-link-menu:focus {
+  color: var(--ocean);
 }
 
 .header-address {
@@ -58,6 +64,7 @@ body {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 .header-link-address:hover,
@@ -65,9 +72,9 @@ body {
   color: var(--ocean);
 }
 
-.header-link-menu .link:hover {
+/* .header-link-menu .link:hover {
   color: #404bbf;
-}
+} */
 
 /* Section HERO */
 
@@ -85,7 +92,6 @@ body {
 .hero-btn-text {
   color: var(--white, #fff);
   background-color: #4d5ae5;
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -122,6 +128,7 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* 3 about us */
 .about-subtitle {
   color: var(--navyblue, #2e2f42);
   text-align: center;
