@@ -190,7 +190,6 @@ body {
 
 .btn-text {
   color: var(--iris);
-  background-color: var(--cloud);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -200,6 +199,7 @@ body {
 .btn-text:hover,
 .btn-text:focus {
   color: var(--white);
+  background-color: var(--ocean);
 }
 
 .card-name{
