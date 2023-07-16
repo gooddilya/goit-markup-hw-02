@@ -172,6 +172,20 @@ body {
 
 /*  PORTFOLIO PAGE */
 
+.button-portfilio-selected {
+  color: var(--white);
+  background-color: var(--ocean);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-portfilio-selected:hover, .button-portfilio-selected:focus{
+color:var(--white)
+}
+
 .button-portfilio {
   color: var(--iris);
   background-color: var(--cloud);
@@ -186,6 +200,15 @@ body {
 .button-portfilio:focus {
   color: var(--ocean);
   background-color: var(--ocean);
+}
+
+.btn-text {
+  color: var(--white);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
 }
 
 .btn-text {
