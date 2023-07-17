@@ -20,6 +20,17 @@ body {
   font-family: "Roboto";
 }
 
+/* ------------------COMPONENT STYLES------------------- */
+.main-button {
+  color: var(--white, #fff);
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
 .list {
   list-style: none;
 }
@@ -27,7 +38,7 @@ body {
   text-decoration: none;
 }
 
-/* header */
+/* <!--------------- HEADER ---------------> */
 .header-logo {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
@@ -48,7 +59,9 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--navy-blue);
+}
+.header-link-menu {
+  color: #2e2f42;
 }
 
 .header-link-menu:hover,
@@ -77,6 +90,12 @@ body {
 .hero {
   background: var(--navyblue, #2e2f42);
 }
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
+}
+
 .hero-title {
   color: #fff;
   text-align: center;
@@ -84,20 +103,6 @@ body {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-}
-.hero-btn-text {
-  color: var(--white, #fff);
-  background-color: #4d5ae5;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.hero-btn-text:hover,
-.hero-btn-text:focus {
-  background-color: #404bbf;
 }
 
 /* 2 ADVANTAGES */
@@ -172,9 +177,10 @@ body {
 
 /*  PORTFOLIO PAGE */
 
-.button-portfilio-selected {
-  color: var(--white);
-  background-color: var(--ocean);
+.portfilio-button {
+  color:#4d5ae5;
+  background-color:#f4f4fd;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -182,24 +188,15 @@ body {
   cursor: pointer;
 }
 
-.button-portfilio-selected:hover, .button-portfilio-selected:focus{
-color:var(--white)
+.portfilio-button:hover,
+.portfilio-button:focus {
+  color:#ffffff;
+  background-color:#404bbf;
 }
 
-.button-portfilio {
-  color: var(--iris);
-  background-color: var(--cloud);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-
-.button-portfilio:hover,
-.button-portfilio:focus {
-  color: var(--ocean);
-  background-color: var(--ocean);
+.portfilio-button:active{
+  color:#ffffff;
+  background-color:#404bbf;
 }
 
 .btn-text {
@@ -225,7 +222,7 @@ color:var(--white)
   background-color: var(--ocean);
 }
 
-.card-name{
+.card-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -233,7 +230,7 @@ color:var(--white)
   color: var(--navy-blue);
 }
 
-.card-description{
+.card-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
