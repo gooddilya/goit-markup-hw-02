@@ -98,6 +98,7 @@ body {
 
 .hero-title {
   color: #fff;
+  font-family: inherit;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
