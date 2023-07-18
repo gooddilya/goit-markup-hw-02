@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: white;
+  color: var(--slate);
+  background-color: var(--white);
 }
 :root {
   --iris: #4d5ae5;
@@ -20,7 +20,12 @@ body {
   font-family: "Roboto";
 }
 
-/* ------------------COMPONENT STYLES------------------- */
+/**
+|============================
+ | COMPONENT STYLE
+ |============================
+*/
+
 .main-button {
   color: var(--white, #fff);
   background-color: #4d5ae5;
@@ -39,7 +44,12 @@ body {
   text-decoration: none;
 }
 
-/* <!--------------- HEADER ---------------> */
+/**
+|============================
+ | HEADER
+ |============================
+*/
+
 .header-logo {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
@@ -86,7 +96,12 @@ body {
   color: var(--ocean);
 }
 
-/* Section HERO */
+/**
+|============================
+ | HERO
+ |============================
+*/
+
 
 .hero {
   background: var(--navyblue, #2e2f42);
@@ -102,12 +117,15 @@ body {
   font-family: inherit;
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
 }
 
-/* 2 ADVANTAGES */
+/**
+|============================
+ | ADVANTAGES
+ |============================
+*/
 
 .visually-hidden {
   white-space: nowrap;
@@ -131,18 +149,25 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* 3 about us */
+/**
+|============================
+ | 3 ABOUT US
+ |============================
+*/
 .about-subtitle {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
-/* 4 OUR TEAM */
+/**
+|============================
+ | 4 OUR TEAM
+ |============================
+*/
 .team {
   background: var(--cloud, #f4f4fd);
 }
@@ -151,7 +176,6 @@ body {
   color: var(--navy-blue);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -177,7 +201,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-/*  PORTFOLIO PAGE */
+/**
+|============================
+ | PORTFOLIO PAGE
+ |============================
+*/
 
 .portfilio-button {
   color:#4d5ae5;
@@ -239,7 +267,12 @@ body {
   color: var(--slate);
 }
 
-/* FOOTER */
+/**
+|============================
+ | FOOTER
+ |============================
+*/
+
 .footer {
   background-color: #2e2f42;
 }
